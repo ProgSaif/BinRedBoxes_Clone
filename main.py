@@ -129,10 +129,10 @@ def parse_and_format_message(text):
     token_link = f'<a href="https://t.me/BinanceRedPacket_Hub">{token}</a>'
 
     formatted = (
-        f"🎁 Code: <code>{html.escape(code)}</code>\n"
-        f"💰 Amount: {amount} {token_link}\n"
-        f"🧧 Progress: {claimed} / {total}\n\n"
-        f"#Binance #RedPacketHub"
+        f" <code>{html.escape(code)}</code>\n\n"
+        f"💰 {amount} {token_link}\n"
+        f"🧧 Progress: {claimed} / {total}\n"
+        f"#Binance #RedPacket #Hub"
     )
 
     return formatted

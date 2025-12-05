@@ -123,7 +123,7 @@ def parse_and_format_message(text):
     # Final formatted output
     formatted = (
         f"{link} <code>{html.escape(code)}</code>\n\n"
-        f"#Binance #RedPacket"
+        f"﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n➠ @TheBinance_Hub \n➠ @BTCxBTCxBTC"
     )
 
     return formatted
